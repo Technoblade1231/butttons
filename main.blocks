@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="`.Lj[W$YOu*sBgRNpyQh">number 1</variable></variables><block type="device_button_event" id="u7{Lg]!t6@()Zp`]awmU" x="377" y="-18"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_plot_bar_graph" id="]f~xMgG_Cfc7JRXB)T8:"><value name="value"><shadow type="math_number" id="@q3W2_9h1jOf0xL-(SLo"><field name="NUM">5</field></shadow></value><value name="high"><shadow type="math_number" id="k~~-6sxKIHUAm4:pFM/E"><field name="NUM">4</field></shadow></value></block></statement></block><block type="device_button_event" id=")`xRiP;ZF5^Cv+rv)=26" x="644" y="-24"><field name="NAME">Button.A</field><comment>when press A show animation when button b is pressed plot a bar graph of 5,4</comment><statement name="HANDLER"><block type="controls_if" id="a_XWr=HDWn?izxUHFRm2"><mutation else="1"/><value name="IF0"><shadow type="logic_boolean" disabled="true"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="q-~G!th`OHp]W)iKAB(`"><field name="OP">LTE</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="MqLDNwf.e+Z)|+5oqR0%"><field name="VAR" id="`.Lj[W$YOu*sBgRNpyQh">number 1</field></block></value><value name="B"><shadow type="math_number" id="To#sO`X$M-_O,{W;dgvn"><field name="NUM">100</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="gzIwib*0jLou]|a8tJWF"><field name="LEDS">`
+        . # . # . 
+        # . # . # 
+        . # . # . 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_show_leds" id="~r/bSi?p{/t#[0m^3]`U"><field name="LEDS">`
+        . # . # . 
+        # # # # # 
+        . # . # . 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_show_leds" id="uxVMz88Wlm0e(|O4MI,,"><field name="LEDS">`
+        . # . # . 
+        # . # . # 
+        . # . # . 
+        # . . . # 
+        . # # # .
+        `</field></block></next></block></next></block></statement><statement name="ELSE"><block type="device_show_number" id="bmqk(TdEHNAgjm5lX5aD"><value name="number"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_brightness" id="#%C,{Er27NO~Hl`Fq1gw"/></value></block></statement></block></statement></block><block type="variables_get" id="JN-:b0oLC)-|_9@ywA4[" disabled="true" x="469" y="1126"><field name="VAR" id="`.Lj[W$YOu*sBgRNpyQh">number 1</field></block></xml>
